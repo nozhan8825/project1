@@ -1,0 +1,143 @@
+@font-face {
+    font-family: orbit;
+    src: url('../font/Orbitron/Orbitron-VariableFont_wght.ttf') format("truetype");
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: bisque;
+}
+.all{
+    padding: 10px;
+}
+header{
+    background-color: #333;
+    display: block;
+}
+.logo{
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+}
+.logo img{
+    display: inline-block;
+    width: 60px;
+    padding: 10px;
+    vertical-align: middle;
+}
+.logo p{
+    display: inline-block;
+    font-family: orbit;
+    color: white;
+    font-size: 30px;
+    
+}
+.menu{
+    display: inline-block;
+    width: 63%;
+    text-align: center;
+    vertical-align: middle;
+}
+.menu a{
+    color: white;
+    font-family: orbit;
+    text-decoration: none;
+    margin: 20px;
+}
+.buttons{
+    display:inline-block;
+    width: 10%;
+    text-align: right;
+    vertical-align: middle;
+}
+.buttons button{
+    background-color:#333;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 3px;
+}
+.buttons a{
+     color: white;
+     text-decoration: none;
+}
+.card{
+    display: inline-block;
+    width: 22%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #cfcece;
+     border-radius: 10px;
+    background-color: rgb(253, 238, 220);
+    text-align: center;
+}
+.card img{
+    width: 100%;
+    height: 160px;
+}
+.card h3{
+    color: #333;
+    font-family: orbit;
+}
+.card p{
+    color: #555;
+}
+.banner{
+    display: inline-block;
+    width: 30%;
+    margin: 12px;
+    padding: 10px;
+    border: 1px solid #cfcece;
+     border-radius: 10px;
+    background-color: rgb(253, 238, 220);
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+    height: 170px;
+}
+.banner h3{
+    color: #333;
+    font-family: orbit;
+}
+.banner p{
+    color: #555;
+}
+.blog{
+    display: inline-block;
+    width: 45%;
+    margin: 15px;
+    height: 170px;
+    padding: 10px;
+    border: 1px solid #cfcece;
+    border-radius: 10px;
+    background-color: rgb(253, 238, 220);
+    text-align: center;
+    vertical-align: top;
+}
+.blog h4{
+    color: #333;
+    font-weight:bold;
+}
+.blog p{
+    color: #555;
+}
+
+footer{
+    background-color: #333;
+}
+.menu-f{
+    margin: 10x;
+    text-align: left;
+    vertical-align: middle;
+    width: 50%;
+}
+.menu-f img{
+    width: 30px;
+    margin: 5px;
+}
